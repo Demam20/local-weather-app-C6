@@ -37,3 +37,5 @@ export class WeatherService {
     return Kelvin * 9/ 5-459.67;
   }
 }
+
+
