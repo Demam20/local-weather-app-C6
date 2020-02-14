@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import{HttpClient} from '@angular/common/http';
 import { environment } from 'src/environments/environment';
 import { ICurrentWeatherData } from './icurrent-weather-data';
+import { ICurrentWeather} from './icurrent-weather';
 import{Observable, pipe}from 'rxjs';
 import{map} from 'rxjs/operators';
 @Injectable({
