@@ -22,7 +22,7 @@ describe('AppComponent', () => {
   it(`should have as title 'local-weather-app'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('Local Weather');
+    expect(app.title).toEqual('local Weather');
   });
 
   

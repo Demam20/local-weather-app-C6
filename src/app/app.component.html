@@ -1,9 +1,13 @@
 <div style="text-align: center;">
-  <title>
+  <mat-toolbar color="primary">
     local weather
-  </title>
+  </mat-toolbar>
+
   <div> your city, your forecaste, right now!</div>
-  <h2>
-    <app-current-weather></app-current-weather>
-  </h2>
+  <div>
+    <app-city-search(searchEvent)="doSearch($event)"></app-city-search(se)>
+  </div>
+  <mat-card color="primary">
+    <app-current-weather[current]="currentWeather"></app-current-weather[current]>
+  </mat-card>
 </div>
